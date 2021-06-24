@@ -1,0 +1,14 @@
+﻿@model BlogProject.Application.ViewModels.TagViewModel
+@{
+    ViewData["Title"] = "AddTag";
+}
+
+<h1>Tag Ekle</h1>
+
+@using (Html.BeginForm())
+{
+
+    @Html.TextBoxFor(x => x.Name)
+
+    <input type="submit" value="Kaydet" />
+}

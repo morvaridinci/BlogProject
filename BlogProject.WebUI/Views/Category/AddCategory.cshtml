@@ -1,0 +1,16 @@
+﻿@model BlogProject.Application.ViewModels.CategoryViewModel
+@{
+    ViewData["Title"] = "AddCategory";
+}
+
+<h1>Kategori Ekle</h1>
+
+@using (Html.BeginForm())
+{
+
+    @Html.TextBoxFor(x => x.Name)
+    @Html.TextBoxFor(x => x.Description)
+    @Html.TextBoxFor(x => x.Status)
+
+    <input type="submit" value="Kaydet" />
+}
