@@ -1,3 +1,3 @@
 # BlogProject
-Apsiyon Bootcamp Homework Week 4 and 5
+Apsiyon .Net Core Bootcamp Homework -Blog Project With Clean Architecture
 
